@@ -1,0 +1,10 @@
+- key: varnish
+  title: "varnish"
+  release: beta
+  description: >
+    varnish module
+  fields:
+    - name: varnish
+      type: group
+      description: >
+      fields:

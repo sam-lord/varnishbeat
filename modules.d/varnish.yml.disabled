@@ -1,0 +1,9 @@
+# Module: varnish
+# Docs: https://www.elastic.co/guide/en/beats/varnishbeat/master/varnishbeat-module-varnish.html
+
+- module: varnish
+  metricsets: ["status"]
+  enabled: false
+  period: 10s
+  hosts: ["localhost"]
+
